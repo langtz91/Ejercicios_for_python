@@ -3,7 +3,6 @@ menor = int(input("Ingrese número 1: "))
 
 for i in range(2, cantidad_numeros+1):
   numero = int(input(f"Ingrese número {i}: "))
-  
   if menor > numero:
     menor = numero
     
