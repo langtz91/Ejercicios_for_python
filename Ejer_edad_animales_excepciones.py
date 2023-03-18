@@ -17,7 +17,7 @@ try:
       conteo_menor += 1
     else: 
       conteo_mayor += 1
-except (ValueError, NameError, ValueError):
+except ValueError:
     print("Ha introducido un dato y/o valor erróneo")
 
 print(f"{animal} menores de 5 años: {conteo_menor}")
